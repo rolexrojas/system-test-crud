@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>unipagoParent</groupId>
+  <artifactId>unipagoParentArt</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>unipagoJARMODULE</module>
+    <module>unipagoWARMODULE</module>
+    <module>unipagoEARMODULE</module>
+  </modules>
+  <repositories> 
+        <repository> 
+            <id>jboss</id>
+            <url>https://repository.jboss.org/nexus/</url>
+        </repository>
+        <repository> 
+            <id>eclipse</id>
+            <url>http://download.eclipse.org/rt/eclipselink/maven.repo</url>
+        </repository>
+        <repository>
+            <id>jboss-3p-release</id>
+            <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases</url>
+        </repository>
+        <repository>
+            <id>jboss-3p-uploads</id>
+            <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-uploads</url>
+        </repository>
+        <repository>
+            <id>jboss-deprecated</id>
+            <url>https://repository.jboss.org/nexus/content/repositories/deprecated</url>
+        </repository>
+        <repository> 
+            <id>Atlassian</id>
+            <url>https://repository.atlassian.com/maven2</url>
+        </repository>
+    </repositories>
+</project>
